@@ -515,3 +515,99 @@ body {
 .footer .footer-content .socials .ic-2 {
   font-size: 1.4rem;
 }
+
+/* style about page */
+.about-main {
+  color: #444444;
+}
+.about-main h3 {
+  margin: auto;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  font-size: 2rem;
+}
+/* style about section */
+.about-section {
+  text-align: center;
+}
+.about-section h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding-bottom: 2rem;
+}
+.about-section p {
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+.about-section p:last-child {
+  padding-bottom: 0;
+}
+/* about section end */
+/* profile cards */
+.profiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1rem;
+}
+.about-container {
+  padding: 0 8px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-flow: column;
+}
+.p-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+.p-content {
+  padding: 16px;
+}
+.p-content button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #ecb722;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+}
+.p-content button:hover {
+  background-color: #555;
+}
+.about-container img {
+  display: block;
+  margin: auto;
+  padding-top: 1rem;
+}
+.p-content h2 {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.p-content p {
+  padding-bottom: 1rem;
+}
+.p-content p:last-child {
+  padding-bottom: 0;
+}
+.p-title {
+  color: #555;
+  text-transform: none;
+  text-align: center;
+  font-size: 1.1rem;
+}
+/* end profile cards */
+.about-main section {
+  margin-bottom: 2rem;
+}
+.about-main section h2 {
+  margin: 2rem;
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 2rem;
+}
