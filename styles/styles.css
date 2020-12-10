@@ -148,3 +148,146 @@ body {
 }
 /* end image bar */
 /* end header section */
+.main {
+  width: 80%;
+  margin: auto;
+  min-height: 100%;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+/* start intro section */
+.intro-section {
+  text-align: center;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  display: block;
+  line-height: 27px;
+  font-weight: 400;
+}
+.intro-container {
+  width: 100%;
+  padding-right:15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.intro-container h1, h2, h3, h4, h5, h6 {
+  font-weight: 800;
+  margin-bottom: .5rem;
+  margin-top: 0;
+  font-family: inherit;
+  line-height: 1.2;
+}
+.intro-container .text-uppercase {
+  text-transform: uppercase;
+  display: block;
+  margin-block-start: 1.67em;
+  margin-block-end: 1.67em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+.intro-container .sub-heading {
+  font-size: 0.833rem;
+  letter-spacing: 11.5px;
+  color: #444444;
+  margin-block-start: 0;
+}
+.intro-container .ic-1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+.intro-container p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  margin-block-start: 1em;
+  margin-block-end: 2em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #444444;
+  font-weight: 400;
+}
+.intro-container .intro-flex {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  margin-right: -15px;
+  margin-left: -15px;
+  overflow: hidden;
+}
+.intro-container .intro-flex .i-icon {
+  font-size: 3.2rem;
+  color: #444444;
+  margin-left: .2rem;
+  margin-right: .2rem;
+  line-height: 1rem;
+}
+.intro-container .intro-flex h5 {
+  font-size: 1.25rem;
+  line-height: 1.2rem;
+  display: block;
+  margin-block-start: 1.67em;
+  margin-block-end: 1.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.intro-container .intro-flex .btn {
+  transition: all 0.2s ease;
+}
+.intro-container .intro-flex .btn-main {
+  background: #ecb722;
+  color: #ffffff;
+  font-weight: 700;
+  border: 2px solid #ecb722;
+  text-transform: uppercase;
+  display: inline-block;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+.intro-container .intro-flex .btn-small {
+  padding: 0.15rem 1rem;
+  font-size: 0.667rem;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+}
+.intro-container .intro-flex a {
+  text-decoration: none;
+}
+.intro-container .intro-flex .about-sub {
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-right: 1px solid #D4D9DE;
+}
+.intro-container .intro-flex .lessons-sub {
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-right: 1px solid #D4D9DE;
+}
+.intro-container .intro-flex .schedule-sub {
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-right: 1px solid #D4D9DE;
+}
+.intro-container .intro-flex .events-sub {
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
