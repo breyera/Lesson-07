@@ -291,3 +291,51 @@ body {
   padding-right: 15px;
   padding-left: 15px;
 }
+/* end intro section */
+/* start celebrating */
+.celebrating {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding-left: 65px;
+  padding-right: 65px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  vertical-align: baseline;
+  text-align: center;
+}
+.celebrating h3 {
+  font-size: 2rem;
+  color: #444444;
+  line-height: 1.5;
+  font-weight: 500;
+  margin: 0 0 15px;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.celebrating p {
+  margin: 0 0 20px;
+  text-align: center;
+  display: block;
+  padding: 0;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  line-height: 22px;
+  letter-spacing: normal;
+}
+.celebrating .c-p1 {
+  font-size: 1.1rem;
+  color: #B9C2CA;
+  font-weight: 400;
+}
+.celebrating .c-p2 {
+  color: #444444;
+  font-size: 1.5rem;
+  font-weight: 450;
+}
