@@ -65,9 +65,11 @@ body {
   text-align: center;
 }
 .menu-bar ul {
-  display: inline-flex;
+  display: flex;
+  justify-content: space-around;
   list-style: none;
-  color: #444444
+  color: #444444;
+  font-weight: bold;
 }
 .menu-bar ul li {
   width: 120px;
@@ -84,11 +86,12 @@ body {
 }
 .sub-menu {
   display: none;
+  z-index: 999;
 }
 .menu-bar ul li:hover .sub-menu {
   display: block;
   position: absolute;
-  background: #FFFFFF;
+  background: #D4D9DE;
   margin-top: 15px;
   margin-left: -15px;
 }
@@ -99,7 +102,7 @@ body {
 .menu-bar ul li:hover .sub-menu ul li {
   width: 150px;
   padding: 10px;
-  border-bottom: 1px dotted #03a3df;
+  border-bottom: 1.5px solid #03a3df;
   background: transparent;
   border-radius: 0;
   text-align: left;
@@ -114,3 +117,34 @@ body {
   float: right;
   color: #444444;
 }
+/* end nav */
+/* start image bar */
+.bg-img {
+  background-image: url('../images/destination-table-target-arrow-game-shooting-archery.jpg');
+  background-color: #CCCCCC;
+  min-height: 380px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 0.9;
+}
+.img-content {
+  position: absolute;
+  right: 0;
+  bottom: 3%;
+  right: 3%;
+  margin: 20px;
+  max-width: 600px;
+  padding: 16px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgba(100, 100, 100, 0.6);
+}
+.img-content h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.5em;
+}
+/* end image bar */
+/* end header section */
