@@ -393,11 +393,6 @@ body {
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
-.contact-section .map-contact .contact-itm span {
-    vertical-align: middle;
-    display: inline-block;
-    font-size: 0.889rem;
-}
 .bg-img-map {
   background-image: url('../images/map.png');
   background-color: #CCCCCC;
@@ -419,22 +414,32 @@ body {
   color: white;
   background-color: #1b447f;
 }
-.ma-1 {
-  margin-bottom: 1rem;
-  margin-top: 1rem;
+.map-column {
+  float: left;
+  width: 50%;
+  padding: 10px;
 }
-.title {
-  font-weight: 500;
-  font-size: 1.1rem;
-  text-transform: uppercase;
-  width: 175px;
+.map-row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
-.text {
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: 40px;
-  font-size: .9rem;
-  text-align: left;
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+.map-column h2 {
+  padding-top: 1.3rem;
+}
+.map-column h2:first-child {
+  padding-top: 0;
+}
+.map-column p {
+  padding-top: 1.3rem;
+}
+.map-column p:first-child {
+  padding-top: 0;
 }
 /* end map */
 /* start footer */
