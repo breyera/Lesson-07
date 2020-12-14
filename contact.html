@@ -65,7 +65,7 @@
                   <img src="images/contact-form.jpg" alt="Arrows in Quiver" style="width:100%">
                 </div>
                 <div class="contact-column">
-                  <form class="contact-form" action="index.html" method="get">
+                  <form class="contact-form" action="contact.html" method="get">
                     <label for="fname">First Name</label>
                     <input type="text" id="fname" name="firstname" placeholder="Your First Name...">
                     <label for="lname">Last Name</label>
@@ -76,15 +76,67 @@
                     <input type="text" id="phone-num" name="phonenumber" placeholder="Your Phone Number...">
                     <label for="subject">Subject</label>
                     <textarea id="subject" name="subject" placeholder="Your Message..." height="170px"></textarea>
+                    <fieldset>
+                      <legend>What is your level of archery experience on a scale of 1-5, with 1 being none at all?</legend>
+                        <label>Never shot an arrow
+                          <input type="radio" name="skill" value="once">
+                          <span></span>
+                        </label>
+                        <label>Shot 2 or 3 times
+                          <input type="radio" name="skill" value="two-three">
+                          <span></span>
+                        </label>
+                        <label>Shot 4-10 times
+                          <input type="radio" name="skill" value="four-ten">
+                          <span></span>
+                        </label>
+                        <label>Shot more than 10 times
+                          <input type="radio" name="skill" value="10-plus">
+                          <span></span>
+                        </label>
+                        <label>I'm an expert
+                          <input type="radio" name="skill" value="expert">
+                          <span></span>
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                      <legend>What kind of activites interest you? Please check all that apply</legend>
+                      <label class="check">Birthday Party
+                        <input type="checkbox" name="activity-interest[]" value="birthday-party">
+                        <span></span>
+                      </label>
+                      <label class="check">Corporate Event
+                        <input type="checkbox" name="activity-interest[]" value="corp-event">
+                        <span></span>
+                      </label>
+                      <label class="check">Lessons
+                        <input type="checkbox" name="activity-interest[]" value="lessons">
+                        <span></span>
+                      </label>
+                      <label class="check">Archery Tag
+                        <input type="checkbox" name="activity-interest[]" value="tag">
+                        <span></span>
+                      </label>
+                      <label class="check">Rec League
+                        <input type="checkbox" name="activity-interest[]" value="rec-league">
+                        <span></span>
+                      </label>
+                    </fieldset>
+                    <label for="group-num">If coming with a group, how many people do you expect in your party?</label>
+                      <input type="number" name="group-num" id="group-num" min="3">
+                    <label for="best-date">What date works best for you to come?</label>
+                      <input type="date" name="best-date" id="best-date">
+                    <label for="age">What is the average age of your group?</label>
+                      <div class="r-container">
+                        <input type="range" value="24" id="age" min="1" max="100" oninput="this.nextElementSibling.value = this.value">
+                        <output>24</output>
+                      </div>
                     <input type="submit" value="Submit">
                   </form>
                 </div>
               </div>
           </div>
             <!-- end contact form -->
-          <!-- additional questions -->
-
-          <!-- end additional questions -->
           <!-- start map section -->
           <section class="map-section">
             <div class="bg-img-map">
