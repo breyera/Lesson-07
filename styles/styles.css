@@ -358,6 +358,22 @@ body {
   background-color: white;
   line-height: 1.4em;
 }
+.hidden {
+  position: relative;
+  left: -10000px;
+  top: auto;
+}
+.hidden:focus {
+  left: 0;
+}
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
 /* header start */
 /* start top bar */
 .header-bar-container {
@@ -425,7 +441,7 @@ body {
   margin: 15px;
   padding: 15px;
 }
-.menu-bar ul li a {
+.menu-bar a {
   text-decoration: none;
   color: #444444;
 }
@@ -584,8 +600,8 @@ body {
 }
 .intro-container .intro-flex .btn-main {
   background: #ecb722;
-  color: #ffffff;
-  font-weight: 700;
+  color: #545454;
+  font-weight: 900;
   border: 2px solid #ecb722;
   text-transform: uppercase;
   display: inline-block;
@@ -924,7 +940,7 @@ body {
   outline: 0;
   display: inline-block;
   padding: 8px;
-  color: white;
+  color: #1B447F;
   background-color: #ecb722;
   text-align: center;
   cursor: pointer;
@@ -992,7 +1008,8 @@ fieldset {
 }
 input[type=submit] {
   background-color: #ecb722;
-  color: white;
+  color: #1B447F;
+  font-weight: bolder;
   padding: 12px 20px;
   border: none;
   cursor: pointer;
